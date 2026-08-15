@@ -1,0 +1,30 @@
+# VentStudio — front controller routing.
+# MultiViews OFF is important: with it on, Apache/mod_negotiation answers /menu
+# by looking for menu.* and returns 404 before the rewrite runs.
+Options -MultiViews -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # never rewrite the front controller itself
+  RewriteRule ^index\.php$ - [L]
+
+  # serve real files / directories as-is
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  # everything else -> front controller
+  RewriteRule ^(.*)$ index.php [L,QSA]
+</IfModule>
+
+# Belt & braces: if mod_rewrite is disabled or .htaccess rewrites are ignored,
+# a request to /menu is a genuine 404 -> Apache serves index.php, which then
+# reads REQUEST_URI, routes, and sets a 200 status itself.
+ErrorDocument 404 /index.php
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>

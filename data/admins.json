@@ -1,0 +1,9 @@
+{
+  "admin@example.com": {
+    "name": "Administrator",
+    "hash": "$2y$10$5mfB0JBS5L8Bm5AceLVHM.P3FqR3rXETnbeHngurzVZDAbd2K7YCG",
+    "role": "owner",
+    "active": true,
+    "created": "2024-01-01T00:00:00+00:00"
+  }
+}

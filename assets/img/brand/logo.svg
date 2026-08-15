@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="VentStudio">
+  <rect width="120" height="120" rx="26" fill="#1B1512"/>
+  <path d="M32 38 L60 86 L88 38" fill="none" stroke="#FBEAD1" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="95" cy="30" r="8" fill="#E8431F"/>
+</svg>

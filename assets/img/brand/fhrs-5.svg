@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" role="img" aria-label="Food Hygiene Rating 5 - Very Good">
+  <!-- green body -->
+  <rect x="6" y="6" width="548" height="238" rx="30" fill="#8BC53F" stroke="#111111" stroke-width="6"/>
+  <!-- title -->
+  <text x="280" y="64" text-anchor="middle" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="0.5">FOOD HYGIENE RATING</text>
+  <!-- divider + pointer -->
+  <line x1="44" y1="86" x2="516" y2="86" stroke="#111111" stroke-width="4"/>
+  <path d="M263 86 H297 L280 105 Z" fill="#111111"/>
+  <!-- rating scale 0-4 -->
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+    <g>
+      <circle cx="62"  cy="168" r="30" fill="#f4f4ee" stroke="#111111" stroke-width="4"/>
+      <circle cx="132" cy="168" r="30" fill="#f4f4ee" stroke="#111111" stroke-width="4"/>
+      <circle cx="202" cy="168" r="30" fill="#f4f4ee" stroke="#111111" stroke-width="4"/>
+      <circle cx="272" cy="168" r="30" fill="#f4f4ee" stroke="#111111" stroke-width="4"/>
+      <circle cx="342" cy="168" r="30" fill="#f4f4ee" stroke="#111111" stroke-width="4"/>
+      <g fill="#6c7440" font-size="30">
+        <text x="62"  y="179">0</text>
+        <text x="132" y="179">1</text>
+        <text x="202" y="179">2</text>
+        <text x="272" y="179">3</text>
+        <text x="342" y="179">4</text>
+      </g>
+    </g>
+    <!-- very good notch -->
+    <rect x="398" y="198" width="150" height="42" rx="20" fill="#ffffff" stroke="#111111" stroke-width="4"/>
+    <!-- awarded 5 -->
+    <circle cx="474" cy="162" r="48" fill="#111111"/>
+    <text x="474" y="184" fill="#ffffff" font-size="62">5</text>
+    <text x="473" y="226" fill="#111111" font-size="17" letter-spacing="0.5">VERY GOOD</text>
+  </g>
+</svg>

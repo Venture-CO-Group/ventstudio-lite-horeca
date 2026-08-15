@@ -1,0 +1,307 @@
+{
+  "settings": {
+    "brandName": "VentStudio",
+    "siteName": "VentStudio",
+    "tagline": "Modern HoReCa ordering, made simple.",
+    "region": "Your Region",
+    "phone": "+44 7000 000000",
+    "whatsapp": "447000000000",
+    "email": "hello@example.com",
+    "contactEmail": "hello@example.com",
+    "legalName": "Example Trading Ltd",
+    "legalForm": "company",
+    "address": "1 Example Street, Your City, AB1 2CD",
+    "vatRegistered": false,
+    "vatNumber": "",
+    "vatRate": 20,
+    "currency": "GBP",
+    "currencySymbol": "£",
+    "orderEnabled": true,
+    "orderingOpen": true,
+    "showAllergens": false,
+    "fulfilment": {
+      "delivery": true,
+      "collection": true
+    },
+    "deliveryFee": 3.0,
+    "minOrder": 15,
+    "freeDeliveryOver": 30,
+    "deliveryCity": "Your City",
+    "deliveryPostcodes": [
+      "AB1",
+      "AB2",
+      "AB3"
+    ],
+    "ordersOpenFrom": "",
+    "slotMinutes": 30,
+    "hours": {
+      "mon": {
+        "open": true,
+        "from": "12:00",
+        "to": "20:00"
+      },
+      "tue": {
+        "open": true,
+        "from": "12:00",
+        "to": "20:00"
+      },
+      "wed": {
+        "open": true,
+        "from": "12:00",
+        "to": "20:00"
+      },
+      "thu": {
+        "open": true,
+        "from": "12:00",
+        "to": "20:00"
+      },
+      "fri": {
+        "open": true,
+        "from": "12:00",
+        "to": "20:00"
+      },
+      "sat": {
+        "open": true,
+        "from": "12:00",
+        "to": "20:00"
+      },
+      "sun": {
+        "open": true,
+        "from": "12:00",
+        "to": "20:00"
+      }
+    },
+    "kitchenEmail": "",
+    "courierEmail": "",
+    "justEatUrl": "",
+    "deliverooUrl": "",
+    "gtmId": "",
+    "calendlyUrl": "",
+    "footerTagline": "EST. 2024",
+    "social": {
+      "instagram": "",
+      "facebook": ""
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "contact": "Find us",
+    "orderCta": "Order online"
+  },
+  "seo": {
+    "description": "VentStudio — a modern HoReCa ordering template for cafés, restaurants and food vans. Order online for delivery or collection."
+  },
+  "home": {
+    "heroTitle": "Good food, ordered in seconds.",
+    "heroLead": "A modern ordering site for cafés, restaurants and food vans. Browse the menu, add to your bag and check out — delivery or collection.",
+    "heroImage": "",
+    "ctaPrimary": "Order online",
+    "ctaSecondary": "See the menu",
+    "strip": "Fresh • Local • Made to order",
+    "features": [
+      {
+        "title": "Order online",
+        "text": "A clean menu, cart and checkout with card payment built in."
+      },
+      {
+        "title": "Delivery or collection",
+        "text": "Set your area, fees and opening hours — customers pick a slot."
+      },
+      {
+        "title": "Run it yourself",
+        "text": "Edit the menu, prices, photos and pages from a simple admin."
+      }
+    ],
+    "featuredNote": "A few favourites"
+  },
+  "about": {
+    "title": "About this venue.",
+    "lead": "This is a demo of the VentStudio HoReCa template — replace this copy with your own story.",
+    "body": "VentStudio is a lightweight ordering site for hospitality businesses. It ships with a menu system, cart, checkout, invoices, branded emails and an admin — all editable without touching code. Swap the logo, colours, copy and products to make it yours.",
+    "points": [
+      "Delivery & collection with per-item stock and visibility",
+      "Card payment, invoices and branded transactional emails",
+      "Pre-order items with a lead time (e.g. 48 hours)",
+      "Runs on flat files out of the box, or MySQL when you're ready"
+    ]
+  },
+  "contact": {
+    "title": "Find us.",
+    "lead": "Add your address, phone and opening hours here. Customers can order online for delivery across your area, or collect in person.",
+    "bookingNote": "Available for events and private bookings — get in touch for a quote."
+  },
+  "menu": {
+    "intro": "A short demo menu. Edit groups, items, prices and photos in the admin.",
+    "groups": [
+      {
+        "id": "mains",
+        "title": "Mains",
+        "accent": "hotsauce",
+        "items": [
+          {
+            "slug": "house-burger",
+            "name": "House Burger",
+            "desc": "Beef patty, cheese, salad and house sauce in a toasted bun.",
+            "price": 9.5,
+            "tags": [
+              "Favourite"
+            ],
+            "allergens": [
+              "gluten",
+              "milk",
+              "mustard",
+              "sesame"
+            ],
+            "visible": true,
+            "stock": null
+          },
+          {
+            "slug": "veggie-wrap",
+            "name": "Veggie Wrap",
+            "desc": "Grilled vegetables, hummus and salad in a soft wrap.",
+            "price": 8.0,
+            "tags": [
+              "Veggie"
+            ],
+            "allergens": [
+              "gluten",
+              "sesame"
+            ],
+            "visible": true,
+            "stock": null
+          },
+          {
+            "slug": "chicken-box",
+            "name": "Chicken Box",
+            "desc": "Grilled chicken with fries and slaw.",
+            "price": 11.0,
+            "tags": [],
+            "allergens": [
+              "milk",
+              "mustard"
+            ],
+            "visible": true,
+            "stock": null
+          }
+        ]
+      },
+      {
+        "id": "sides",
+        "title": "Sides",
+        "accent": "fresh",
+        "items": [
+          {
+            "slug": "fries",
+            "name": "Fries",
+            "desc": "Proper chips, salted.",
+            "price": 3.5,
+            "tags": [],
+            "allergens": [],
+            "visible": true,
+            "stock": null
+          },
+          {
+            "slug": "onion-rings",
+            "name": "Onion Rings",
+            "desc": "Crispy battered rings.",
+            "price": 4.0,
+            "tags": [],
+            "allergens": [
+              "gluten",
+              "milk"
+            ],
+            "visible": true,
+            "stock": null
+          },
+          {
+            "slug": "coleslaw",
+            "name": "Coleslaw",
+            "desc": "Fresh & creamy.",
+            "price": 2.5,
+            "tags": [],
+            "allergens": [
+              "eggs",
+              "milk",
+              "mustard"
+            ],
+            "visible": true,
+            "stock": null
+          }
+        ]
+      },
+      {
+        "id": "specials",
+        "title": "Pre-order Specials",
+        "accent": "honey",
+        "note": "Minimum pre-order: 48 hours (2 days).",
+        "items": [
+          {
+            "slug": "sharing-platter",
+            "name": "Sharing Platter",
+            "desc": "A large platter for 3–4 — pre-order only.",
+            "price": 24.0,
+            "tags": [],
+            "allergens": [
+              "gluten",
+              "milk",
+              "mustard"
+            ],
+            "visible": true,
+            "stock": null,
+            "preorder": true,
+            "preorderHours": 48
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "Drinks",
+        "accent": "fresh",
+        "items": [
+          {
+            "slug": "soft-drink",
+            "name": "Soft Drink",
+            "desc": "Canned soft drink.",
+            "price": 2.0,
+            "tags": [],
+            "allergens": [],
+            "visible": true,
+            "stock": null
+          },
+          {
+            "slug": "still-water",
+            "name": "Still Water",
+            "desc": "500ml bottle.",
+            "price": 1.5,
+            "tags": [],
+            "allergens": [],
+            "visible": true,
+            "stock": null
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "companyName": "VentStudio",
+    "blurb": "A modern HoReCa ordering template."
+  },
+  "allergenLegend": {
+    "celery": "Celery",
+    "gluten": "Cereals w/ gluten",
+    "crustaceans": "Crustaceans",
+    "eggs": "Eggs",
+    "fish": "Fish",
+    "lupin": "Lupin",
+    "milk": "Milk",
+    "molluscs": "Molluscs",
+    "mustard": "Mustard",
+    "nuts": "Tree nuts",
+    "peanuts": "Peanuts",
+    "sesame": "Sesame",
+    "soya": "Soya",
+    "sulphites": "Sulphites"
+  }
+}

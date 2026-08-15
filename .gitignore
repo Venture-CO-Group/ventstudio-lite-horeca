@@ -1,0 +1,19 @@
+# secrets
+.env
+
+# runtime flat-file store (created at runtime)
+/content.json
+/content.backup.json
+/data/orders.json
+/data/*.log
+/data/*.bak
+
+# user-uploaded menu photos (keep the folder, ignore contents)
+/assets/img/menu/*
+!/assets/img/menu/.gitkeep
+
+# os / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
